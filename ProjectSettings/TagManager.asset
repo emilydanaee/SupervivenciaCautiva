@@ -2,17 +2,22 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Map
+  - Ground
+  - Wall
+  - Details
+  - Chip
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
+  - Details
+  - Wall
   - 
   - 
   - 
@@ -41,3 +46,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 2249195101
+    locked: 0
+  - name: Ground
+    uniqueID: 686321421
+    locked: 0
+  - name: Details
+    uniqueID: 3939167385
+    locked: 0
+  - name: Wall
+    uniqueID: 294737369
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
